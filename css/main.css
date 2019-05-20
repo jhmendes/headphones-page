@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 @import "reset.css";
 @import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+
+
 /* Color Theme Swatches in Hex
 color: #8873EA; 
 color: #4945BF; 
 color: #615CF2; 
 color: #F28F38; 
 color: #E6CDF9;  */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
