@@ -88,6 +88,7 @@
     width: 60%;
     display: inline-block;
     float: left;
+    padding: 0 40px;
 }
 
 #top-jumbo .right-jumbo img {
