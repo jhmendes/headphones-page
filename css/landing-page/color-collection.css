@@ -1,7 +1,134 @@
-#color-collection .container .color-collection-img {
-    
+#color-collection::after {
+        content: "";
+        display: table;
+        clear: both;
 }
 
+/* LEFT SIDE */
+#color-collection .container .color-collection-img {
+    float: left;
+    width: 50%;
+}
+
+#color-collection .container .color-collection-img img {
+    width: 90%;
+    transform: rotate(-40deg);
+}
+
+
+/* RIGHT SIDE */
 #color-collection .container .color-collection-picker {
-    
+    float: left;
+    width: 35%;
+    padding-left: 30px;
+    position: relative;
+    text-align: center;
+}
+
+#color-collection .container .color-collection-picker .swatch-picker {
+    padding: 10px 30px;
+    border-radius: 5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#color-collection .container .color-collection-picker .swatch-picker .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: blue;
+    display: inline-block;
+}
+
+#color-collection .container .color-collection-picker .swatch-picker .circle:nth-child(1) {
+    background: linear-gradient(126deg, rgba(136, 115, 234, 1), rgba(230, 205, 249, 1) 41%, rgba(242, 143, 56, 1) 100%);
+}
+
+#color-collection .container .color-collection-picker .swatch-picker .circle:nth-child(2) {
+    background: linear-gradient(126deg, rgba(230, 205, 249, 1), purple 47%, rgba(73, 69, 191, 1) 95%);
+}
+
+#color-collection .container .color-collection-picker .swatch-picker .circle:nth-child(3) {
+    background: linear-gradient(126deg, rgba(242, 143, 56, 1) 47%, rgba(230, 205, 249, 1) 76%, rgba(73, 69, 191, 1) 95%);
+
+}
+
+#color-collection .container .color-collection-picker .info-box {
+    display: inline-block;
+    padding: 60px 25px 20px;
+    background: #fff;
+    text-align: center;
+    line-height: 1.1;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#color-collection .container .color-collection-picker .info-box h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#color-collection .container .color-collection-picker .info-box span:nth-child(1) {
+    display: block;
+    color: var(--orange);
+}
+
+#color-collection .container .color-collection-picker .info-box span:nth-child(2) {
+    display: block;
+    color: var(--dark-purple);
+    font-weight: 700;
+}
+
+#color-collection .container .color-collection-picker .info-box span:nth-child(3) {
+    display: block;
+    color: var(--med-purple);
+    font-weight: 300;
+}
+
+#color-collection .container .color-collection-picker .info-box p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+#color-collection .container .color-collection-picker .info-box a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#color-collection .container .color-collection-picker .info-box .line {
+    border-bottom: 3px solid var(--med-purple);
+    width: 50px;
+    margin: 20px auto;
+}
+
+#color-collection .container .color-collection-picker .color-slider {
+    background: #615cf2;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #615cf2 1%, #4945bf 18%, #e6cdf9 33%, #f28f38 49%, #615cf2 69%, #e6cdf9 83%, #4945bf 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #615cf2 1%, #4945bf 18%, #e6cdf9 33%, #f28f38 49%, #615cf2 69%, #e6cdf9 83%, #4945bf 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #615cf2 1%, #4945bf 18%, #e6cdf9 33%, #f28f38 49%, #615cf2 69%, #e6cdf9 83%, #4945bf 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    width: 20px;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: -125px;
+}
+
+#color-collection .container .color-collection-picker .color-slider .picker {
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+    left: -25%;
+
 }
