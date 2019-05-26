@@ -1,13 +1,13 @@
 #design-by {
     position: relative;
     top: -200px;
-  
+
 }
 
 #design-by .design-container::after {
-        content: "";
-        display: table;
-        clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #design-by .design-container {
@@ -16,16 +16,16 @@
 
 /* Left Info Box */
 #design-by .design-container .design-by-info {
- background: var(--light-purple);
- width: 40%;
- display: inline-block;
- float: left;
- padding: 45px;
- background: url("../../img/headphone.png"), linear-gradient(var(--light-purple), var(--orange));
- background-position: 5% 60%;
- background-blend-mode: difference;
- border-top-left-radius: 15px;
- border-bottom-left-radius: 15px;
+    background: var(--light-purple);
+    width: 40%;
+    display: inline-block;
+    float: left;
+    padding: 45px;
+    background: url("../../img/headphone.png"), linear-gradient(var(--light-purple), var(--orange));
+    background-position: 5% 60%;
+    background-blend-mode: difference;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 #design-by .design-container .design-by-info h5 {
@@ -34,19 +34,20 @@
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-   }
+}
+
 #design-by .design-container .design-by-info h3 {
     color: #fff;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-   }
+}
 
-   #design-by .design-container .design-by-info .info-list {
+#design-by .design-container .design-by-info .info-list {
     margin-bottom: 4rem;
-   }
+}
 
-   #design-by .design-container .design-by-info .info-list .checkmark{
+#design-by .design-container .design-by-info .info-list .checkmark {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -55,24 +56,24 @@
     margin-right: 15px;
     position: relative;
     top: 7px;
-   }
+}
 
-   #design-by .design-container .design-by-info .info-list li .checkmark i{
+#design-by .design-container .design-by-info .info-list li .checkmark i {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   }
-   
-   #design-by .design-container .design-by-info ul li {
+}
+
+#design-by .design-container .design-by-info ul li {
     color: #fff;
     list-style: none;
     font-size: 1.1rem;
     font-weight: 300;
     margin-bottom: 1.5rem;
-   }
+}
 
- 
+
 /* Right Icons Box */
 #design-by .design-container .design-by-icons {
     width: 60%;
@@ -81,4 +82,57 @@
     float: left;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+#design-by .design-container .design-by-icons .refresh {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--orange);
+    font-size: 2rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: font-size, .4s;
+}
+
+#design-by .design-container .design-by-icons .refresh:hover {
+    font-size: 4rem;
+}
+
+#design-by .design-container .design-by-icons .icon-box {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    height: 222px;
+    text-align: center;
+    color: var(--med-purple);
+}
+
+#design-by .design-container .design-by-icons .icon-box:nth-child(2) {
+    border-right: 1px solid rgba(211, 211, 211, .3);
+
+}
+
+#design-by .design-container .design-by-icons .icon-box:nth-child(3) {
+    border-bottom: 1px solid rgba(211, 211, 211, .3);
+
+}
+
+#design-by .design-container .design-by-icons .icon-box:nth-child(4) {
+    border-top: 1px solid rgba(211, 211, 211, .3);
+    border-right: 1px solid rgba(211, 211, 211, .3);
+
+}
+#design-by .design-container .design-by-icons .icon-box i {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 75px;
+}
+
+#design-by .design-container .design-by-icons .icon-box .title {
+    text-transform: uppercase;
+
 }
