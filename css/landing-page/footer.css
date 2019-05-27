@@ -1,0 +1,27 @@
+#footer {
+    background: var(--med-purple);
+    text-align: center;
+}
+
+#footer h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2rem;
+}
+
+#footer h2 span {
+   color: var(--orange);
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    /* display: inline; */
+ }
+
+ #footer ul li  {
+    display: inline;
+    padding: 2rem 1rem;
+ }

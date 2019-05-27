@@ -1,0 +1,168 @@
+#latest {
+    padding: 5rem 0;
+}
+
+#latest .top-row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#latest .top-row {
+    margin-bottom: 8rem;
+}
+
+#latest .top-row h2 {
+    color: var(--med-purple);
+    font-size: 3rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#latest .top-row .arrows {
+    float: right;
+    display: inline-block;
+    
+}
+
+#latest .top-row .arrows i {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    
+}
+
+#latest .top-row .arrows i:first-child {
+    background: var(--med-purple);
+    color: #fff;
+    border: 1px solid var(--med-purple);
+}
+#latest .top-row .arrows i:nth-child(2) {
+  border: 1px solid #333;
+}
+
+/* HEADPHONES */
+
+/* #latest .headphone-boxes::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+#latest .headphone-boxes {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10rem;
+}
+
+#latest .headphone-boxes .headphone {
+    width: 300px;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#latest .headphone-boxes .headphone:last-child {
+    margin-right: 0;
+}
+
+#latest .headphone-boxes .headphone img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+
+#latest .headphone-boxes .headphone.box-1 {
+    background: #f28f38; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #f28f38 0%, #8873ea 34%, #615cf2 55%, #f28f38 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#latest .headphone-boxes .headphone.box-2 {
+    background: #f28f38; /* Old browsers */
+background: -moz-linear-gradient(top, #f28f38 0%, #8873ea 34%, #615cf2 55%, #f28f38 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#latest .headphone-boxes .headphone.box-3 {
+    background: #f28f38; /* Old browsers */
+background: -moz-linear-gradient(45deg, #f28f38 0%, #8873ea 34%, #615cf2 55%, #f28f38 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+#latest .headphone-boxes .headphone .shopping-cart {
+    background: #f28f38; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #f28f38 0%, #2989d8 50%, #8873ea 51%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #f28f38 0%,#2989d8 50%,#8873ea 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #f28f38 0%,#2989d8 50%,#8873ea 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-size: 1.8rem;
+    color: #fff;
+    display: inline-block;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+#latest .headphone-boxes .headphone h5 {
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#latest .headphone-boxes .headphone.box-1 h5 {
+    border-top: 2px solid var(--orange);
+}
+#latest .headphone-boxes .headphone.box-2 h5 {
+    border-top: 2px solid var(--light-purple);
+}
+#latest .headphone-boxes .headphone.box-3 h5 {
+    border-top: 2px solid var(--light-pink);
+}
+
+#latest .hello-box {
+    text-align: center;
+    /* background: url("../../img/headphone.png"); */
+}
+
+
+#latest .hello-box h2 {
+    color: var(--med-purple);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#latest .hello-box .hello-buttons div {
+    display: inline-block;
+    padding: 10px;
+    color: slategray;
+    border-radius: 30px;
+}
+#latest .hello-box input {
+    padding: 10px;
+    border: none;
+}
+
+#latest .hello-box .hello-buttons input[type="submit"] {
+    background: var(--med-purple);
+    color: #fff;
+    font-size: 1rem;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+
+
