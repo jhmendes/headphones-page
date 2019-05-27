@@ -1,3 +1,7 @@
+#color-collection {
+    margin-bottom: 5rem;
+}
+
 #color-collection .container::after {
         content: "";
         display: table;

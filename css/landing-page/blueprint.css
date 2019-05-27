@@ -1,0 +1,103 @@
+#blueprint {
+background: #4945bf; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #4945bf 0%, #4945bf 38%, #4945bf 49%, #4945bf 49%, #615cf2 77%, #615cf2 77%, #615cf2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #4945bf 0%,#4945bf 38%,#4945bf 49%,#4945bf 49%,#615cf2 77%,#615cf2 77%,#615cf2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #4945bf 0%,#4945bf 38%,#4945bf 49%,#4945bf 49%,#615cf2 77%,#615cf2 77%,#615cf2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#blueprint .container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#blueprint .blueprint-img {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+#blueprint .blueprint-img img {
+    width: 100%;
+}
+
+#blueprint .blueprint-info {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    color: #fff;
+    padding: 80px 20px;
+}
+#blueprint .blueprint-info-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+#blueprint .blueprint-info .blueprint-info-box {
+margin-bottom: 4rem;
+}
+
+#blueprint .blueprint-info .blueprint-info-box .info-box-icon{
+ 
+    vertical-align: top;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-right: 2rem;
+    /* float: left;
+    width: 30%; */
+}
+
+#blueprint .blueprint-info .blueprint-info-box .info-box-icon i {
+    border-radius: 50%;
+    border: 2px dashed gray;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 2.8rem;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#blueprint .blueprint-info .blueprint-info-box .info-box-info {
+    display: inline-block;
+    /* line-height: 1.4 */
+}
+
+#blueprint .blueprint-info .blueprint-info-box .info-box-info h5{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+#blueprint .blueprint-info .blueprint-info-box .info-box-info p{
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+#blueprint .blueprint-info .blueprint-info-box .info-box-info a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+#blueprint .blueprint-info .blueprint-info-box.org-box .info-box-icon {
+ border: 5px solid var(--orange);
+}
+
+#blueprint .blueprint-info .blueprint-info-box.purp-box .info-box-icon {
+    border: 5px solid var(--light-pink);
+   }
+
+#blueprint .blueprint-info .blueprint-info-box.org-box a {
+    color: var(--orange);
+}
+
+#blueprint .blueprint-info .blueprint-info-box.purp-box a {
+  color: var(--orange);
+}
