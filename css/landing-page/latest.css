@@ -133,12 +133,20 @@ background: linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 10
 
 #latest .hello-box {
     text-align: center;
-    /* background: url("../../img/headphone.png"); */
+    background: url("../../img/headphone.png") no-repeat center center/contain;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+    padding: 3rem 0;
 }
 
 
+
+
+
+
 #latest .hello-box h2 {
-    color: var(--med-purple);
+    color: var(--dark-purple);
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 3rem;
@@ -149,6 +157,7 @@ background: linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 10
     padding: 10px;
     color: slategray;
     border-radius: 30px;
+    background: #fff;
 }
 #latest .hello-box input {
     padding: 10px;
