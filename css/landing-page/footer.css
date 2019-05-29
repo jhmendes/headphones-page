@@ -1,6 +1,8 @@
 #footer {
     background: var(--med-purple);
     text-align: center;
+    padding: 5rem 0; 
+    color: #fff;
 }
 
 #footer h2 {
@@ -8,11 +10,16 @@
     font-weight: 700;
     color: #fff;
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 #footer h2 span {
    color: var(--orange);
 }
+
+#footer ul  {
+    margin-bottom: 2rem;
+ }
 
 #footer ul li a {
     text-decoration: none;
@@ -25,3 +32,15 @@
     display: inline;
     padding: 2rem 1rem;
  }
+
+ #footer p  {
+  margin-bottom: 2rem; 
+ }
+
+ #footer .footer-social {
+     color: #333;
+ }
+
+ #footer .footer-social i {
+ padding: 0 1rem;
+}
