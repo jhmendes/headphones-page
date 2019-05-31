@@ -75,21 +75,21 @@
     top: -50px;
 }
 
-#latest .headphone-boxes .headphone.box-1 {
+#latest .headphone-boxes .headphone.box-1 .bg-square {
     background: #f28f38; /* Old browsers */
     background: -moz-linear-gradient(-45deg, #f28f38 0%, #8873ea 34%, #615cf2 55%, #f28f38 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-#latest .headphone-boxes .headphone.box-2 {
+#latest .headphone-boxes .headphone.box-2 .bg-square {
     background: #f28f38; /* Old browsers */
 background: -moz-linear-gradient(top, #f28f38 0%, #8873ea 34%, #615cf2 55%, #f28f38 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-#latest .headphone-boxes .headphone.box-3 {
+#latest .headphone-boxes .headphone.box-3 .bg-square {
     background: #f28f38; /* Old browsers */
 background: -moz-linear-gradient(45deg, #f28f38 0%, #8873ea 34%, #615cf2 55%, #f28f38 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 100%); /* Chrome10-25,Safari5.1-6 */
@@ -113,10 +113,14 @@ background: linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 10
     right: -20px;
 }
 
+#latest .headphone-boxes .headphone .bg-square {
+    margin-bottom: 2rem;
+}
+
 #latest .headphone-boxes .headphone h5 {
     display: inline-block;
     padding: 20px;
-    color: #fff;
+    color: #000;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -140,11 +144,6 @@ background: linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 10
     padding: 3rem 0;
 }
 
-
-
-
-
-
 #latest .hello-box h2 {
     color: var(--dark-purple);
     font-weight: 700;
@@ -159,19 +158,26 @@ background: linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 10
     border-radius: 30px;
     background: #fff;
 }
+
+#latest .hello-box .hello-buttons div.name {
+    margin-right: 10px;
+}
+
 #latest .hello-box input {
     padding: 10px;
     border: none;
+    font-size: 1rem;
 }
 
 #latest .hello-box .hello-buttons input[type="submit"] {
     background: var(--med-purple);
     color: #fff;
     font-size: 1rem;
-    padding: 20px 40px;
+    padding: 10px 40px;
     text-transform: uppercase;
-    border-radius: 30px;
+    border-radius: 40px;
 }
+
 
 
 
