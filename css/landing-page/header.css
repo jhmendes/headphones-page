@@ -62,3 +62,25 @@ header .header-buttons .btn-orange {
 header .header-buttons .btn-blue i.fas.fa-shopping-bag {
     margin-left: 20px;
 }
+
+
+/* Laptop */
+
+@media only screen and (max-width: 1215px) {
+ 
+    
+}
+
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+   
+   
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+   
+   
+}

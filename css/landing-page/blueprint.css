@@ -111,3 +111,25 @@ margin-bottom: 4rem;
 #blueprint .blueprint-info .blueprint-info-box.purp-box a {
   color: var(--light-pink);
 }
+
+
+/* Laptop */
+
+@media only screen and (max-width: 1215px) {
+ 
+    
+}
+
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+   
+   
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+   
+   
+}

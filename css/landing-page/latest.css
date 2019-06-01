@@ -181,3 +181,24 @@ background: linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 10
 
 
 
+
+/* Laptop */
+
+@media only screen and (max-width: 1215px) {
+ 
+    
+}
+
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+   
+   
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+   
+   
+}

@@ -44,3 +44,25 @@
  #footer .footer-social i {
  padding: 0 1rem;
 }
+
+
+/* Laptop */
+
+@media only screen and (max-width: 1215px) {
+ 
+    
+}
+
+/* Tablet */
+@media only screen and (max-width: 1023px) {
+   
+   
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+   
+   
+}
