@@ -5,7 +5,7 @@ header {
     margin-bottom: 50px;
 }
 
-header::after{
+header .container-fluid::after{
     content: "";
     display: table;
     clear: both;
@@ -75,6 +75,15 @@ header .header-buttons .btn-blue i.fas.fa-shopping-bag {
 @media only screen and (max-width: 1023px) {
    
    
+ 
+     header .header-buttons  {
+        clear: both;
+      }
+ 
+      header .header-buttons a:first-child {
+         
+      }
+   
 }
 
 
@@ -82,5 +91,46 @@ header .header-buttons .btn-blue i.fas.fa-shopping-bag {
 /* Mobile */
 @media only screen and (max-width: 767px) {
    
-   
+    header {
+        padding-top: 20px;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    header .logo {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    header .menu {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    header .menu a {
+        width: 45%;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    header .header-buttons {
+       width: 100%;
+       text-align: center;
+       margin-top: 30px;
+    }
+
+
+    header .header-buttons a {
+        display: block;
+        margin-bottom: 10px;
+        width: 80%;
+        margin: 0 auto;
+     }
+
+     header .header-buttons a:first-child {
+        margin-bottom: 10px;
+        
+     }
 }
