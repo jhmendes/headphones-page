@@ -148,7 +148,27 @@
 
 /* Tablet */
 @media only screen and (max-width: 1023px) {
-   
+    #color-collection .container .color-collection-img {
+        float: left;
+        width: 35%;
+    }
+
+    #color-collection .container .color-collection-picker {
+        float: left;
+        width: 45%;
+    }
+
+    #color-collection .container .color-collection-picker .info-box {
+       
+        padding: 20px 25px;
+      
+    }
+
+    #color-collection .container .color-collection-picker .info-box h2 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
    
 }
 
@@ -156,6 +176,33 @@
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
-   
+    #color-collection .container .color-collection-img {
+        float: none;
+        display: block;
+        width: 50%;
+        margin: 2rem auto;
+
+    }
+
+    #color-collection .container .color-collection-picker {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+
+    #color-collection .container .color-collection-picker .color-slider {
+        display: block;
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-top: 2rem;
+        background: linear-gradient(to right, #615cf2 1%, #4945bf 18%, #e6cdf9 33%, #f28f38 49%, #615cf2 69%, #e6cdf9 83%, #4945bf 100%);
+    }
+
+    #color-collection .container .color-collection-picker .color-slider .picker {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
    
 }
