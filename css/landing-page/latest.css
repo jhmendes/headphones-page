@@ -191,7 +191,15 @@ background: linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 10
 
 /* Tablet */
 @media only screen and (max-width: 1023px) {
-   
+    #latest .headphone-boxes {
+       flex-wrap: wrap;
+       justify-content: space-around;
+       margin-bottom: 8rem;
+    }
+
+    #latest .headphone-boxes .headphone:last-child {
+        margin-top: 4rem;
+    }
    
 }
 
@@ -199,6 +207,45 @@ background: linear-gradient(45deg, #f28f38 0%,#8873ea 34%,#615cf2 55%,#f28f38 10
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
+
+    #latest .top-row {
+        margin-bottom: 6rem;
+        text-align: center;
+    }
+
+    #latest .top-row h2 {
+        margin-bottom: 3rem;
+    }
+
+    #latest .top-row .arrows {
+        float: none;
+        display: block;
+    }
+
+    #latest .headphone-boxes {
+        display: block;
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+
+    #latest .headphone-boxes .headphone {
+        margin: 4rem auto;
+    }
+
+    #latest .headphone-boxes .headphone:last-child {
+        margin-right: auto;
+    }
    
-   
+
+    #latest .hello-box .hello-buttons div {
+        margin-bottom: 2rem;
+    }
+
+    #latest .hello-box h2 {
+       font-size: 2rem;
+    }
+
+    #latest .hello-box .hello-buttons input[type="submit"] {
+       padding: 10px 10px;
+    }
 }

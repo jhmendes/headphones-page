@@ -63,6 +63,22 @@
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
-   
+    #footer h2 {
+        font-size: 2rem;
+    }
+
+    #footer ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #footer ul li {
+        display: inline-block;
+        /* padding: 1rem; */
+        padding: 1.5rem .5rem;
+        flex-basis: 50%;
+        
+    }
    
 }

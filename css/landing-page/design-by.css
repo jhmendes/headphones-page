@@ -149,12 +149,12 @@
 @media only screen and (max-width: 1023px) {
    
     #design-by .design-container .design-by-info {
-        width: 50%;
+        width: 100%;
         border-radius: 15px;
     }
 
     #design-by .design-container .design-by-icons {
-        width: 50%;
+        width: 100%;
         border-radius: 15px;
     }
 
@@ -171,16 +171,7 @@
     #design-by {
         top: -100px;
     }
-   
-    #design-by .design-container .design-by-info {
-        width: 100%;
-        border-radius: 15px;
-    }
 
-    #design-by .design-container .design-by-icons {
-        width: 100%;
-        border-radius: 15px;
-    }
 
     #design-by .design-container .design-by-info {
         width: 100%;
